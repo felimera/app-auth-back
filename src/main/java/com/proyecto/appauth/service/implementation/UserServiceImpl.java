@@ -1,11 +1,13 @@
 package com.proyecto.appauth.service.implementation;
 
 import com.proyecto.appauth.exception.BusinessException;
+import com.proyecto.appauth.exception.NotFoundException;
 import com.proyecto.appauth.model.RoleType;
 import com.proyecto.appauth.model.User;
 import com.proyecto.appauth.repository.RoleTypeRepository;
 import com.proyecto.appauth.repository.UserRepository;
 import com.proyecto.appauth.service.UserService;
+import com.proyecto.appauth.util.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -42,6 +44,14 @@ public class UserServiceImpl implements UserService {
 
             userRepository.save(user);
         }
+        return true;
+    }
+
+    @Override
+    public boolean isExistUser(String email) {
+        Optional<User> userOptional = userRepository.findOneByEmail(email);
+        if (userOptional.isEmpty())
+            throw new NotFoundException(Constants.MESSAGE_USER_NOT_FOUND, "415", HttpStatus.NOT_FOUND);
         return true;
     }
 
