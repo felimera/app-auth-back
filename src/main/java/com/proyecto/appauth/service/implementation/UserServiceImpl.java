@@ -1,11 +1,13 @@
 package com.proyecto.appauth.service.implementation;
 
+import com.proyecto.appauth.exception.BusinessException;
 import com.proyecto.appauth.model.RoleType;
 import com.proyecto.appauth.model.User;
 import com.proyecto.appauth.repository.RoleTypeRepository;
 import com.proyecto.appauth.repository.UserRepository;
 import com.proyecto.appauth.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -29,7 +31,7 @@ public class UserServiceImpl implements UserService {
     public boolean createUser(User user) {
 
         if (this.isEmailExist(user.getEmail())) {
-//            throw new BusinessException("300", HttpStatus.CONFLICT, "This email already exists.");
+            throw new BusinessException("300", HttpStatus.CONFLICT, "This email already exists.");
         }
 
         Optional<RoleType> roleTypeOptional = roleTypeRepository.findOneByAcronym("U");
