@@ -1,10 +1,12 @@
 package com.proyecto.appauth.controller;
 
-import com.proyecto.appauth.controller.dto.SignUpDto;
+import com.proyecto.appauth.controller.dto.UserDto;
 import com.proyecto.appauth.controller.mapper.UserMapper;
+import com.proyecto.appauth.exception.ResponseMessageException;
 import com.proyecto.appauth.model.User;
 import com.proyecto.appauth.model.exception.ExceptionResponseMessage;
 import com.proyecto.appauth.service.UserService;
+import com.proyecto.appauth.util.CadenaUtil;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,21 +17,24 @@ import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RestController
-@RequestMapping(path = "/signup")
+@RequestMapping(path = "/user")
 @CrossOrigin(origins = "http://localhost:4200")
-public class SignupController {
+public class UserController {
 
     private UserService userService;
 
     @Autowired
-    public SignupController(UserService userService) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 
     @PostMapping
-    public ResponseEntity<Object> signUser(@Valid @RequestBody SignUpDto signUpDto, BindingResult bindingResult) {
+    public ResponseEntity<Object> signUser(@Valid @RequestBody UserDto userDto, BindingResult bindingResult) {
+        log.info("Creating SignUp : {}", userDto);
+        if (bindingResult.hasErrors())
+            throw new ResponseMessageException("401-01", "Error creating client.", CadenaUtil.formatMessage(bindingResult), HttpStatus.BAD_REQUEST);
 
-        User user = UserMapper.INSTANCE.toSignUp(signUpDto);
+        User user = UserMapper.INSTANCE.toEntity(userDto);
         boolean isUserCreated = userService.createUser(user);
         if (isUserCreated)
             return ResponseEntity
