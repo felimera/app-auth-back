@@ -7,8 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class SignUpDto {
-    private String nombres;
-    private String correo;
-    private String contrasenna;
+public class LoginResponseDto {
+    private String jwtToken;
 }

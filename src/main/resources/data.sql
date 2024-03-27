@@ -1,14 +1,14 @@
 /* -- table -- */
 drop table if exists tbl_access_permits;
-drop table if exists tbl_role_type;
 drop table if exists tbl_user;
+drop table if exists tbl_role_type;
 drop table if exists tbl_router_link;
 
 create table tbl_role_type (
     rt_id int auto_increment  primary key,
-    rt_name varchar(10) not null,
+    rt_name varchar(20) not null,
     rt_acronym varchar(2) unique not null,
-    rt_description varchar(100) not null
+    rt_description varchar(1000) null
 );
 
 create table tbl_user (
@@ -24,7 +24,7 @@ create table tbl_router_link (
     rl_label varchar(50) not null,
     rl_icon varchar(50) not null,
     rl_url varchar(100) not null,
-    rl_description varchar(500) null
+    rl_description varchar(1000) null
 );
 
 create table tbl_access_permits (
