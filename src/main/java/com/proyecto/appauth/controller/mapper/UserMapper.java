@@ -1,6 +1,6 @@
 package com.proyecto.appauth.controller.mapper;
 
-import com.proyecto.appauth.controller.dto.SignUpDto;
+import com.proyecto.appauth.controller.dto.UserDto;
 import com.proyecto.appauth.model.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -15,5 +15,5 @@ public interface UserMapper {
     @Mapping(target = "password", source = "contrasenna")
     @Mapping(target = "id", ignore = true)
     @Mapping(target = "roleType", ignore = true)
-    User toSignUp(SignUpDto signUpDto);
+    User toEntity(UserDto userDto);
 }
