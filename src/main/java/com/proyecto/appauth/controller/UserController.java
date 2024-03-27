@@ -29,8 +29,8 @@ public class UserController {
     }
 
     @PostMapping
-    public ResponseEntity<Object> signUser(@Valid @RequestBody UserDto userDto, BindingResult bindingResult) {
-        log.info("Creating SignUp : {}", userDto);
+    public ResponseEntity<Object> postUser(@Valid @RequestBody UserDto userDto, BindingResult bindingResult) {
+        log.info("Creating UserDto : {}", userDto);
         if (bindingResult.hasErrors())
             throw new ResponseMessageException("401-01", "Error creating client.", CadenaUtil.formatMessage(bindingResult), HttpStatus.BAD_REQUEST);
 
