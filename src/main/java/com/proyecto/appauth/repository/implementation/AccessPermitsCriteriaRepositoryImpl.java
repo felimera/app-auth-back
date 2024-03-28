@@ -5,7 +5,6 @@ import com.proyecto.appauth.model.AccessPermits_;
 import com.proyecto.appauth.model.RoleType;
 import com.proyecto.appauth.model.RoleType_;
 import com.proyecto.appauth.repository.AccessPermitsCriteriaRepository;
-import com.proyecto.appauth.util.Constants;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.criteria.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,8 +33,6 @@ public class AccessPermitsCriteriaRepositoryImpl implements AccessPermitsCriteri
 
         if (Objects.nonNull(acronym)) {
             predicates.add(cb.equal(accessPermitsRoleTypeJoin.get(RoleType_.ACRONYM), acronym));
-        } else {
-            predicates.add(cb.equal(accessPermitsRoleTypeJoin.get(RoleType_.ACRONYM), Constants.I));
         }
 
         if (!predicates.isEmpty()) {
