@@ -41,6 +41,7 @@ alter table tbl_user add foreign key (us_role_type_id) references tbl_role_type(
 
 insert into tbl_role_type (rt_name,rt_acronym,rt_description) values ('Administrador','A','Persona encargar de multiples tareas y permisos adsolutos en la aplicaciona.');
 insert into tbl_role_type (rt_name,rt_acronym,rt_description) values ('Usuario','U','Cliente del establecimiento con limitadas funciones en la aplicacion.');
+insert into tbl_role_type (rt_name,rt_acronym,rt_description) values ('Invitado','I','Potencial cliente que no sea registrado en el sistema.');
 
 insert into tbl_router_link (rl_label,rl_icon,rl_url,rl_description) values ('Dashboard','dashboard','/dashboard','Listado de todoslos servicios que ofrece el establecimiento.');
 insert into tbl_router_link (rl_label,rl_icon,rl_url,rl_description) values ('Database','database','/database','Acceso completo a las funcionalidades del gesto de appointment.');
@@ -62,3 +63,5 @@ insert into tbl_access_permits (ap_router_link_id,ap_role_type_id) values (6,1);
 insert into tbl_access_permits (ap_router_link_id,ap_role_type_id) values (1,2);
 insert into tbl_access_permits (ap_router_link_id,ap_role_type_id) values (2,2);
 insert into tbl_access_permits (ap_router_link_id,ap_role_type_id) values (6,2);
+
+insert into tbl_access_permits (ap_router_link_id,ap_role_type_id) values (1,3);
