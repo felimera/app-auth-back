@@ -1,6 +1,6 @@
 package com.proyecto.appauth.controller;
 
-import com.proyecto.appauth.controller.dto.UserDto;
+import com.proyecto.appauth.controller.dto.auth.UserDto;
 import com.proyecto.appauth.controller.mapper.UserMapper;
 import com.proyecto.appauth.exception.ResponseMessageException;
 import com.proyecto.appauth.model.User;

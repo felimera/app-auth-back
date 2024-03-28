@@ -1,7 +1,7 @@
 package com.proyecto.appauth.controller;
 
-import com.proyecto.appauth.controller.dto.LoginRequestDto;
-import com.proyecto.appauth.controller.dto.LoginResponseDto;
+import com.proyecto.appauth.controller.dto.auth.LoginRequestDto;
+import com.proyecto.appauth.controller.dto.auth.LoginResponseDto;
 import com.proyecto.appauth.controller.mapper.LoginRequestMapper;
 import com.proyecto.appauth.exception.ResponseMessageException;
 import com.proyecto.appauth.model.auth.LoginRequest;

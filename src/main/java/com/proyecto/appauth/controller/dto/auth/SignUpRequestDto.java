@@ -1,4 +1,4 @@
-package com.proyecto.appauth.controller.dto;
+package com.proyecto.appauth.controller.dto.auth;
 
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
