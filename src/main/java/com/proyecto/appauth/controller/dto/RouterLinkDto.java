@@ -7,6 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class LoginResponseDto {
-    private String jwtToken;
+public class RouterLinkDto {
+    private Integer id;
+    private String etiqueta;
+    private String icono;
+    private String url;
+    private String descripcion;
 }

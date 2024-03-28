@@ -1,6 +1,6 @@
 package com.proyecto.appauth.controller.mapper;
 
-import com.proyecto.appauth.controller.dto.LoginRequestDto;
+import com.proyecto.appauth.controller.dto.auth.LoginRequestDto;
 import com.proyecto.appauth.model.auth.LoginRequest;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
