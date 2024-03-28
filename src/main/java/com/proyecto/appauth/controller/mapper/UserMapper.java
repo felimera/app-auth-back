@@ -1,6 +1,6 @@
 package com.proyecto.appauth.controller.mapper;
 
-import com.proyecto.appauth.controller.dto.UserDto;
+import com.proyecto.appauth.controller.dto.auth.UserDto;
 import com.proyecto.appauth.model.User;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
