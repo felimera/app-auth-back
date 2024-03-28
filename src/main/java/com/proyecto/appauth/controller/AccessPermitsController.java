@@ -27,7 +27,7 @@ public class AccessPermitsController {
     }
 
     @GetMapping
-    public ResponseEntity<AccessPermitsDto> getAllByAcronym(@RequestParam(name = "acronym", required = false) String acronym) {
+    public ResponseEntity<AccessPermitsDto> getAllByAcronym(@RequestParam(name = "acronym") String acronym) {
 
         List<AccessPermits> accessPermitsList = accessPermitsService.getAccessPermitsByRoleType(acronym);
         AccessPermitsDto permitsDto = accessPermitsStageService.getAccessPermitsDto(accessPermitsList);
