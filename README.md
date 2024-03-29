@@ -29,57 +29,20 @@ At this point, the system allows the creation of users from two endpoints.
 
 In the first we can create the user on a specific endpoint, if we provide the necessary data it will respond with an affirmation or denial response. If the answer is affirmative, we must use another endpoint where we will enter the requested data and it will return the authorization token. But if the answer is negative, the system will indicate which data was the one that failed.
 
+- [**`User creation through two endpoints`**](readmefiles/01-usercreation/Readme.md)
+
 In the second it will allow us to create the user and will return a response with the data of the created user and the token will be added immediately.
 
-To create a user we can follow the following steps:
+- [**`User creation through a single endpoint`**](readmefiles/02-usercreation/Readme.md)
 
-#### User creation through two endpoints
+With these endpoints we can obtain the authorization token that will be useful to make requests to the microservice.
 
-1. Open your preferred REST Client (Postman).
-2. Change the request option to a Post.
-3. Add the url to the patch http://localhost:81/signup , then go to the body option in raw segment and add the following body:
+### Additional endpoints
+
+As an additional option, two more endpoints were created. One does not need to use authorization token the other if it is necessary. These have the function of answering the necessary data for a side menu in which the potential client will have access to the application information.
+
+- [**`Guest access`**](readmefiles/01-accessuser/Readme.md)
+- [**`Access as user`**](readmefiles/02-accessuser/Readme.md)
 
 
-```json
-{
-  "name":"User test",
-  "email":"user-test@test.com",
-  "password":"password"
-}
-```
-
-4. In the body you can modify the name, email and password data to your preference.
-5. Then execute the request.
-6. Next, you should see the response of the request with a 201 Created with the body:
-
-```json
-{ 
-  "code": "201", 
-  "message": "User created successfully."
-}
-```
-
-#### Get the Token
-After creating the user you can do the following:
-
-1. Open another tab of the REST Client (PostMan) and enter this url http://localhost:81/login
-2. Change the request option to a Post.
-3. Then go to the body option in raw segment and add the following body:
-
-````json
-{
-     "email":"user-test@test.com",
-     "password":"password"
-}
-````
-
-4. In the body you can modify the name, email and password data to your preference.
-5. Then execute the request.
-6. Next, you should see the response of the request with a 200 Ok with the body:
-
-````json
-{
-  "jwtToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmRyZXNAYW5kcmVzLmNvbSIsImlhdCI6MTcwOTg1NzU3NCwiZXhwIjoxNzEyNDQ5NTc0fQ.CtJLViMFyxhvnTIr1ZDtzqWa-NdV542 "Vlkp8Cx2HJS0"
-}
-````
 
