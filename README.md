@@ -29,11 +29,11 @@ At this point, the system allows the creation of users from two endpoints.
 
 In the first we can create the user on a specific endpoint, if we provide the necessary data it will respond with an affirmation or denial response. If the answer is affirmative, we must use another endpoint where we will enter the requested data and it will return the authorization token. But if the answer is negative, the system will indicate which data was the one that failed.
 
-- [**`User creation through two endpoints`**](readmefiles/01-usercreation/Readme.md)
+- [**`User creation through two endpoints`**](readmefiles/01-usercreation/README.md)
 
 In the second it will allow us to create the user and will return a response with the data of the created user and the token will be added immediately.
 
-- [**`User creation through a single endpoint`**](readmefiles/02-usercreation/Readme.md)
+- [**`User creation through a single endpoint`**](readmefiles/02-usercreation/README.md)
 
 With these endpoints we can obtain the authorization token that will be useful to make requests to the microservice.
 
@@ -41,8 +41,8 @@ With these endpoints we can obtain the authorization token that will be useful t
 
 As an additional option, two more endpoints were created. One does not need to use authorization token the other if it is necessary. These have the function of answering the necessary data for a side menu in which the potential client will have access to the application information.
 
-- [**`Guest access`**](readmefiles/01-accessuser/Readme.md)
-- [**`Access as user`**](readmefiles/02-accessuser/Readme.md)
+- [**`Guest access`**](readmefiles/01-accessuser/README.md)
+- [**`Access as user`**](readmefiles/02-accessuser/README.md)
 
 
 
