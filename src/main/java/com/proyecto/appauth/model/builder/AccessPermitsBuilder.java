@@ -29,4 +29,13 @@ public class AccessPermitsBuilder {
                 builder.roleType
         );
     }
+
+    public AccessPermits toEditRouterAndRole(RouterLink routerLink, RoleType roleType) {
+        AccessPermitsBuilder builder = toAccessPermitsBuilder();
+        return new AccessPermits(
+                builder.id,
+                routerLink,
+                roleType
+        );
+    }
 }
