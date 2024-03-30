@@ -3,7 +3,7 @@ package com.proyecto.appauth.service.implementation;
 import com.proyecto.appauth.exception.BusinessException;
 import com.proyecto.appauth.exception.NotFoundException;
 import com.proyecto.appauth.model.RoleType;
-import com.proyecto.appauth.model.User;
+import com.proyecto.appauth.model.auth.User;
 import com.proyecto.appauth.repository.RoleTypeRepository;
 import com.proyecto.appauth.repository.UserRepository;
 import com.proyecto.appauth.service.UserService;

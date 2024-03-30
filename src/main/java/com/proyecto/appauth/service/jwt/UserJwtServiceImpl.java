@@ -1,6 +1,6 @@
 package com.proyecto.appauth.service.jwt;
 
-import com.proyecto.appauth.model.User;
+import com.proyecto.appauth.model.auth.User;
 import com.proyecto.appauth.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

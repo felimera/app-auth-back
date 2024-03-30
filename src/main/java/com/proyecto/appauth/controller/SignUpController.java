@@ -7,7 +7,7 @@ import com.proyecto.appauth.controller.dto.auth.UserDto;
 import com.proyecto.appauth.controller.mapper.SignUpMapper;
 import com.proyecto.appauth.controller.mapper.UserMapper;
 import com.proyecto.appauth.exception.ResponseMessageException;
-import com.proyecto.appauth.model.User;
+import com.proyecto.appauth.model.auth.User;
 import com.proyecto.appauth.model.auth.LoginRequest;
 import com.proyecto.appauth.model.exception.ExceptionResponseMessage;
 import com.proyecto.appauth.service.LoginService;

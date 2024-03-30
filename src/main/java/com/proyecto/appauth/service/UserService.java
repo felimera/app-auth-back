@@ -1,6 +1,6 @@
 package com.proyecto.appauth.service;
 
-import com.proyecto.appauth.model.User;
+import com.proyecto.appauth.model.auth.User;
 import org.springframework.stereotype.Service;
 
 @Service
