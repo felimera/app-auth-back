@@ -12,8 +12,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import java.util.Objects;
 
 @Service
 public class LoginServiceImpl implements LoginService {
@@ -34,16 +35,13 @@ public class LoginServiceImpl implements LoginService {
             authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(loginRequest.getEmail(), loginRequest.getPassword())
             );
-        } catch (AuthenticationException e) {
+        } catch (org.springframework.security.core.AuthenticationException e) {
             throw new AuthenticationException("Unauthorized user.", "501", HttpStatus.UNAUTHORIZED);
         }
 
-        UserDetails userDetails;
-        try {
-            userDetails = userJwtServiceImpl.loadUserByUsername(loginRequest.getEmail());
-        } catch (UsernameNotFoundException e) {
+        UserDetails userDetails = userJwtServiceImpl.loadUserByUsername(loginRequest.getEmail());
+        if (Objects.isNull(userDetails))
             throw new NotFoundException(Constants.MESSAGE_USER_NOT_FOUND, "501", HttpStatus.NOT_FOUND);
-        }
 
         return jwtUtil.generateToken(userDetails.getUsername());
     }

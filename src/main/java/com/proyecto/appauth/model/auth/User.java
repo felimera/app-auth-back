@@ -1,5 +1,6 @@
-package com.proyecto.appauth.model;
+package com.proyecto.appauth.model.auth;
 
+import com.proyecto.appauth.model.RoleType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -3,7 +3,7 @@ package com.proyecto.appauth.service.implementation;
 import com.proyecto.appauth.exception.BusinessException;
 import com.proyecto.appauth.exception.NotFoundException;
 import com.proyecto.appauth.model.RoleType;
-import com.proyecto.appauth.model.User;
+import com.proyecto.appauth.model.auth.User;
 import com.proyecto.appauth.repository.RoleTypeRepository;
 import com.proyecto.appauth.repository.UserRepository;
 import com.proyecto.appauth.service.UserService;
@@ -36,7 +36,7 @@ public class UserServiceImpl implements UserService {
             throw new BusinessException("300", HttpStatus.CONFLICT, "This email already exists.");
         }
 
-        Optional<RoleType> roleTypeOptional = roleTypeRepository.findOneByAcronym("U");
+        Optional<RoleType> roleTypeOptional = roleTypeRepository.findOneByAcronym(Constants.U);
         if (roleTypeOptional.isPresent()) {
             user.setRoleType(roleTypeOptional.get());
             String hashPassword = passwordEncoder.encode(user.getPassword());
