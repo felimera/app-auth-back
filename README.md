@@ -46,9 +46,11 @@ As an additional option, two more endpoints were created. One does not need to u
 
 ## Deployment
 
-To deploy this microservice, the Render service was used, where it provides me with enough functions to be able to test the App-Auth. If you want to test this microservice you can use the endpoints defined above and you just have to change the localhost to the render url. 
+To deploy this microservice, the Render service (https://render.com/) was used, where it provides me with enough functions to be able to test the App-Auth. If you want to test this microservice you can use the endpoints defined above and you just have to change the localhost to the render url. 
 Example:
 
 Original URL: http://localhost:81/auth/user
 
 Deployed URL: https://app-auth-back.onrender.com/auth/user
+
+This will be the case with the other endpoints.
