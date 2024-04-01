@@ -1,0 +1,6 @@
+com\proyecto\appauth\service\implementation\AccessPermitsServiceImplTest.class
+com\proyecto\appauth\service\implementation\AccessPermitsStageServiceImplTest.class
+com\proyecto\appauth\service\implementation\UserServiceImplTest.class
+com\proyecto\appauth\AppAuthApplicationTests.class
+com\proyecto\appauth\service\implementation\LoginServiceImplTest.class
+com\proyecto\appauth\service\jwt\UserJwtServiceImplTest.class
