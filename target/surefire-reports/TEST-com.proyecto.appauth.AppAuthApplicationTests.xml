@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.proyecto.appauth.AppAuthApplicationTests" time="7.591" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.proyecto.appauth.AppAuthApplicationTests" time="12.111" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\PROFESIONAL19.10\AppData\Local\Temp\surefire1564714822342064293\surefirebooter-20240401075033907_3.jar C:\Users\PROFESIONAL19.10\AppData\Local\Temp\surefire1564714822342064293 2024-04-01T07-50-33_704-jvmRun1 surefire-20240401075033907_1tmp surefire_0-20240401075033907_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\PROFESIONAL19.10\AppData\Local\Temp\surefire11828742527203392683\surefirebooter-20240401084625595_3.jar C:\Users\PROFESIONAL19.10\AppData\Local\Temp\surefire11828742527203392683 2024-04-01T08-46-25_330-jvmRun1 surefire-20240401084625595_1tmp surefire_0-20240401084625595_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\workspace\Auth\app-auth\target\test-classes;C:\workspace\Auth\app-auth\target\classes;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.4\spring-boot-starter-data-jpa-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.4\spring-boot-starter-aop-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.4\spring-boot-starter-jdbc-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-jdbc\6.1.5\spring-jdbc-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\PROFESIONAL19.10\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\PROFESIONAL19.10\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\PROFESIONAL19.10\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\PROFESIONAL19.10\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.5\jaxb-runtime-4.0.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.5\jaxb-core-4.0.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\eclipse\angus\angus-activation\2.0.2\angus-activation-2.0.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\glassfish\jaxb\txw2\4.0.5\txw2-4.0.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\data\spring-data-jpa\3.2.4\spring-data-jpa-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\data\spring-data-commons\3.2.4\spring-data-commons-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-orm\6.1.5\spring-orm-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-context\6.1.5\spring-context-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-tx\6.1.5\spring-tx-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-beans\6.1.5\spring-beans-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-aspects\6.1.5\spring-aspects-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.4\spring-boot-starter-web-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.4\spring-boot-starter-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot\3.2.4\spring-boot-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.4\spring-boot-autoconfigure-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.4\spring-boot-starter-logging-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\PROFESIONAL19.10\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\slf4j\jul-to-slf4j\2.0.12\jul-to-slf4j-2.0.12.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.4\spring-boot-starter-json-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.4\spring-boot-starter-tomcat-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.19\tomcat-embed-core-10.1.19.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.19\tomcat-embed-websocket-10.1.19.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-web\6.1.5\spring-web-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\io\micrometer\micrometer-observation\1.12.4\micrometer-observation-1.12.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\io\micrometer\micrometer-commons\1.12.4\micrometer-commons-1.12.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-webmvc\6.1.5\spring-webmvc-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-expression\6.1.5\spring-expression-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.4\spring-boot-starter-test-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-test\3.2.4\spring-boot-test-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.4\spring-boot-test-autoconfigure-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\PROFESIONAL19.10\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\PROFESIONAL19.10\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\PROFESIONAL19.10\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\PROFESIONAL19.10\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-core\6.1.5\spring-core-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-jcl\6.1.5\spring-jcl-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-test\6.1.5\spring-test-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\mapstruct\mapstruct\1.5.5.Final\mapstruct-1.5.5.Final.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.2.4\spring-boot-starter-validation-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.19\tomcat-embed-el-10.1.19.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\PROFESIONAL19.10\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.2.4\spring-boot-starter-security-3.2.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\spring-aop\6.1.5\spring-aop-6.1.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\security\spring-security-config\6.2.3\spring-security-config-6.2.3.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\security\spring-security-core\6.2.3\spring-security-core-6.2.3.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\security\spring-security-crypto\6.2.3\spring-security-crypto-6.2.3.jar;C:\Users\PROFESIONAL19.10\.m2\repository\org\springframework\security\spring-security-web\6.2.3\spring-security-web-6.2.3.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\github\cliftonlabs\json-simple\3.1.0\json-simple-3.1.0.jar;C:\Users\PROFESIONAL19.10\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar;C:\Users\PROFESIONAL19.10\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="windows-1252"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\PROFESIONAL19.10\AppData\Local\Temp\surefire1564714822342064293\surefirebooter-20240401075033907_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\PROFESIONAL19.10\AppData\Local\Temp\surefire11828742527203392683\surefirebooter-20240401084625595_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
@@ -51,7 +51,7 @@
     <property name="user.dir" value="C:\workspace\Auth\app-auth"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="14888"/>
+    <property name="PID" value="5836"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
     <property name="native.encoding" value="Cp1252"/>
@@ -63,9 +63,9 @@
     <property name="java.class.version" value="61.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[app-auth] "/>
   </properties>
-  <testcase name="contextLoads" classname="com.proyecto.appauth.AppAuthApplicationTests" time="0.681">
-    <system-out><![CDATA[07:50:35.053 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.proyecto.appauth.AppAuthApplicationTests]: AppAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-07:50:35.214 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.proyecto.appauth.AppAuthApplication for test class com.proyecto.appauth.AppAuthApplicationTests
+  <testcase name="contextLoads" classname="com.proyecto.appauth.AppAuthApplicationTests" time="0.935">
+    <system-out><![CDATA[08:46:27.628 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.proyecto.appauth.AppAuthApplicationTests]: AppAuthApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:46:27.862 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.proyecto.appauth.AppAuthApplication for test class com.proyecto.appauth.AppAuthApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -75,19 +75,19 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.4)
 
-2024-04-01T07:50:35.778-05:00  INFO 14888 --- [app-auth] [           main] c.p.appauth.AppAuthApplicationTests      : Starting AppAuthApplicationTests using Java 17.0.2 with PID 14888 (started by PROFESIONAL19.10 in C:\workspace\Auth\app-auth)
-2024-04-01T07:50:35.779-05:00  INFO 14888 --- [app-auth] [           main] c.p.appauth.AppAuthApplicationTests      : No active profile set, falling back to 1 default profile: "default"
-2024-04-01T07:50:36.867-05:00  INFO 14888 --- [app-auth] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-04-01T07:50:36.990-05:00  INFO 14888 --- [app-auth] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 4 JPA repository interfaces.
-2024-04-01T07:50:37.722-05:00  INFO 14888 --- [app-auth] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-04-01T07:50:37.849-05:00  INFO 14888 --- [app-auth] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2024-04-01T07:50:37.907-05:00  INFO 14888 --- [app-auth] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-04-01T07:50:38.333-05:00  INFO 14888 --- [app-auth] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-04-01T07:50:38.381-05:00  INFO 14888 --- [app-auth] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-04-01T07:50:38.647-05:00  INFO 14888 --- [app-auth] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:~/dbauth user=SA
-2024-04-01T07:50:38.650-05:00  INFO 14888 --- [app-auth] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-04-01T07:50:39.870-05:00  INFO 14888 --- [app-auth] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-04-01T07:50:39.924-05:00 DEBUG 14888 --- [app-auth] [           main] org.hibernate.SQL                        : 
+2024-04-01T08:46:28.842-05:00  INFO 5836 --- [app-auth] [           main] c.p.appauth.AppAuthApplicationTests      : Starting AppAuthApplicationTests using Java 17.0.2 with PID 5836 (started by PROFESIONAL19.10 in C:\workspace\Auth\app-auth)
+2024-04-01T08:46:28.844-05:00  INFO 5836 --- [app-auth] [           main] c.p.appauth.AppAuthApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-04-01T08:46:30.878-05:00  INFO 5836 --- [app-auth] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-01T08:46:31.094-05:00  INFO 5836 --- [app-auth] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 198 ms. Found 4 JPA repository interfaces.
+2024-04-01T08:46:32.174-05:00  INFO 5836 --- [app-auth] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-01T08:46:32.355-05:00  INFO 5836 --- [app-auth] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-01T08:46:32.413-05:00  INFO 5836 --- [app-auth] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-01T08:46:33.000-05:00  INFO 5836 --- [app-auth] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-01T08:46:33.073-05:00  INFO 5836 --- [app-auth] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-01T08:46:33.469-05:00  INFO 5836 --- [app-auth] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:~/dbauth user=SA
+2024-04-01T08:46:33.474-05:00  INFO 5836 --- [app-auth] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-01T08:46:35.116-05:00  INFO 5836 --- [app-auth] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-01T08:46:35.178-05:00 DEBUG 5836 --- [app-auth] [           main] org.hibernate.SQL                        : 
     create table tbl_access_permits (
         ap_id integer generated by default as identity,
         ap_role_type_id integer,
@@ -101,7 +101,7 @@ Hibernate:
         ap_router_link_id integer,
         primary key (ap_id)
     )
-2024-04-01T07:50:39.938-05:00 DEBUG 14888 --- [app-auth] [           main] org.hibernate.SQL                        : 
+2024-04-01T08:46:35.200-05:00 DEBUG 5836 --- [app-auth] [           main] org.hibernate.SQL                        : 
     create table tbl_role_type (
         rt_id integer generated by default as identity,
         rt_acronym varchar(255),
@@ -117,7 +117,7 @@ Hibernate:
         rt_name varchar(255),
         primary key (rt_id)
     )
-2024-04-01T07:50:39.941-05:00 DEBUG 14888 --- [app-auth] [           main] org.hibernate.SQL                        : 
+2024-04-01T08:46:35.204-05:00 DEBUG 5836 --- [app-auth] [           main] org.hibernate.SQL                        : 
     create table tbl_router_link (
         rl_id integer generated by default as identity,
         rl_description varchar(255),
@@ -135,7 +135,7 @@ Hibernate:
         rl_url varchar(255),
         primary key (rl_id)
     )
-2024-04-01T07:50:39.943-05:00 DEBUG 14888 --- [app-auth] [           main] org.hibernate.SQL                        : 
+2024-04-01T08:46:35.208-05:00 DEBUG 5836 --- [app-auth] [           main] org.hibernate.SQL                        : 
     create table tbl_user (
         us_id integer generated by default as identity,
         us_email varchar(255),
@@ -153,7 +153,7 @@ Hibernate:
         us_role_type_id integer,
         primary key (us_id)
     )
-2024-04-01T07:50:39.946-05:00 DEBUG 14888 --- [app-auth] [           main] org.hibernate.SQL                        : 
+2024-04-01T08:46:35.211-05:00 DEBUG 5836 --- [app-auth] [           main] org.hibernate.SQL                        : 
     alter table if exists tbl_access_permits 
        add constraint FK3j52t2xfasxjvh9af1mejbtqw 
        foreign key (ap_role_type_id) 
@@ -163,7 +163,7 @@ Hibernate:
        add constraint FK3j52t2xfasxjvh9af1mejbtqw 
        foreign key (ap_role_type_id) 
        references tbl_role_type
-2024-04-01T07:50:39.955-05:00 DEBUG 14888 --- [app-auth] [           main] org.hibernate.SQL                        : 
+2024-04-01T08:46:35.221-05:00 DEBUG 5836 --- [app-auth] [           main] org.hibernate.SQL                        : 
     alter table if exists tbl_access_permits 
        add constraint FKjba23e9on77d3x9m0ik3wac89 
        foreign key (ap_router_link_id) 
@@ -173,7 +173,7 @@ Hibernate:
        add constraint FKjba23e9on77d3x9m0ik3wac89 
        foreign key (ap_router_link_id) 
        references tbl_router_link
-2024-04-01T07:50:39.958-05:00 DEBUG 14888 --- [app-auth] [           main] org.hibernate.SQL                        : 
+2024-04-01T08:46:35.223-05:00 DEBUG 5836 --- [app-auth] [           main] org.hibernate.SQL                        : 
     alter table if exists tbl_user 
        add constraint FKbq67gbbf1rwasowq39l1gr9un 
        foreign key (us_role_type_id) 
@@ -183,11 +183,11 @@ Hibernate:
        add constraint FKbq67gbbf1rwasowq39l1gr9un 
        foreign key (us_role_type_id) 
        references tbl_role_type
-2024-04-01T07:50:39.962-05:00  INFO 14888 --- [app-auth] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-04-01T07:50:40.608-05:00  WARN 14888 --- [app-auth] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-04-01T07:50:41.105-05:00  INFO 14888 --- [app-auth] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6e3acd7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55b78dad, org.springframework.security.web.context.SecurityContextHolderFilter@377d55, org.springframework.security.web.header.HeaderWriterFilter@1b83fac3, org.springframework.web.filter.CorsFilter@47f4dc8d, org.springframework.security.web.authentication.logout.LogoutFilter@6f70015, com.proyecto.appauth.filter.JwtRequestFilter@52667676, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ef7e4c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57edfa89, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@689fcf08, org.springframework.security.web.session.SessionManagementFilter@1de398c3, org.springframework.security.web.access.ExceptionTranslationFilter@3f7bf0f6, org.springframework.security.web.access.intercept.AuthorizationFilter@4eb3b690]
-2024-04-01T07:50:41.550-05:00  INFO 14888 --- [app-auth] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:~/dbauth'
-2024-04-01T07:50:41.690-05:00  INFO 14888 --- [app-auth] [           main] c.p.appauth.AppAuthApplicationTests      : Started AppAuthApplicationTests in 6.255 seconds (process running for 7.637)
+2024-04-01T08:46:35.227-05:00  INFO 5836 --- [app-auth] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-01T08:46:36.397-05:00  WARN 5836 --- [app-auth] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-01T08:46:37.398-05:00  INFO 5836 --- [app-auth] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1d01fa0c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44bd7f24, org.springframework.security.web.context.SecurityContextHolderFilter@dc24732, org.springframework.security.web.header.HeaderWriterFilter@3f7bf0f6, org.springframework.web.filter.CorsFilter@6e3acd7, org.springframework.security.web.authentication.logout.LogoutFilter@30f99ca1, com.proyecto.appauth.filter.JwtRequestFilter@1f6d3a81, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@377d55, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@193c810, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55b78dad, org.springframework.security.web.session.SessionManagementFilter@1a3a6216, org.springframework.security.web.access.ExceptionTranslationFilter@3abb6aa, org.springframework.security.web.access.intercept.AuthorizationFilter@cbaabfb]
+2024-04-01T08:46:38.035-05:00  INFO 5836 --- [app-auth] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:~/dbauth'
+2024-04-01T08:46:38.216-05:00  INFO 5836 --- [app-auth] [           main] c.p.appauth.AppAuthApplicationTests      : Started AppAuthApplicationTests in 9.865 seconds (process running for 12.446)
 ]]></system-out>
   </testcase>
 </testsuite>
